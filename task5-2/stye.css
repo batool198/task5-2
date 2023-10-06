@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  padding: 0.5rem;
+  box-shadow: 0 3px 6px rgba (0, 0, 0, 0.2);
+  border: none;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+.dropdown-menu li:first-child a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* //carsoul */
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+.carousel-item {
+  height: calc(100vh - 71px);
+  width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  left: 700px;
+  top: 130px;
+
+  max-width: 500px;
+}
+.carousel-caption h5 {
+  font-size: 66px;
+  font-weight: bold;
+}
+.left {
+  left: 0;
+  color: black;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: black;
+  box-shadow: #0c0a0ab3 0 1px 4px;
+  border-radius: 400px;
+}
+/* arrival */
+.image:hover {
+  transition: 0.5s ease;
+
+  opacity: 0.8;
+}
+.card-text-red {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-body-gray {
+  background: rgb(206, 206, 206);
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+/* es */
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+.card-border-none {
+  border: none;
+}
+.width-img {
+  width: 135px;
+  height: 135px;
+  object-fit: contain;
+}
+.phone {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.phone-img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  margin: 5rem 0 4.5rem;
+}
+
+.image-cover {
+  background-image: url(./footer_ad0f20f1-29b5-4188-8127-a6667ac6aea9_1920X_1.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-attachment: unset;
+}
+
+.bg-1 {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.accordion {
+  margin-top: 40px;
+  background-color: transparent;
+  border: none;
+}
+.accordion-item {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.accordion-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  color: #fff;
+}
